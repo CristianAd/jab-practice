@@ -1,114 +1,18 @@
-body{
-  background-color: rgb(101, 99, 99);
-}
-.App {
-  text-align: center;
-  
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.rey{
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.contenedorT{
-  display: grid;
-  width: 40vw;
-  height: 100%;
-  padding: 1rem;
-  margin: 0 auto;
-  place-items: center;
-  border: 1px solid beige;
-  grid-template-columns: auto auto;
-  grid-template: 
-  "tj1 tj2"
-  "tj3 tj4"
-  "tj5 tj6";
-  row-gap: 1rem;
-  column-gap: 1rem;
-  
-}
-.tarjeta{
-  width: 10rem;
-  height: 15rem;
-  border: 1px solid black;
-  background-color: antiquewhite;
-  margin: 0 auto;
- 
+  padding: 2px 15px 20px;
+  margin-bottom: 10px;
+  width: 47%;
+  box-sizing: border-box;
   
 }
 
-.tarjeta img{
+img{
+  width: 100%;
+}
+
+.cajaCentral{
   display: flex;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-   
-  
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-
-.tarjeta-1{
-  grid-area: tj1;
-  background-color: rgb(10, 101, 117);
-}
-
-.tarjeta-2{
-  grid-area: tj2;
-  background-color: saddlebrown;
-  
-}
-.tarjeta-3{
-  background-color: goldenrod;
-  grid-area: tj3;
-}
-.tarjeta-4{
-  background-color: wheat;
-  grid-area: tj4;
-  
-}
-.tarjeta-5{
-  background-color: thistle;
-  grid-area: tj5;
-  
-}
-.tarjeta-6{
-  background-color: tomato;
-  grid-area: tj6;
-  
-}
- 
-
-
-
- 
